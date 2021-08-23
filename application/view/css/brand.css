@@ -1,0 +1,12 @@
+.btn-responsive {
+    margin-right: 2px;
+    margin-bottom: 4px;
+    padding: 5px 5px;
+    font-size: 80%;
+    line-height: 1.2;
+    white-space: normal !important;
+}
+
+.defaultBackground{
+    background-image: url('../assets/images/cokeEnergyBACKGROUND.png');
+}
