@@ -1,0 +1,29 @@
+{
+    "homePageData":[
+        {
+        "title": " Coca Cola Great Britain",
+        "subtitle": "Founded in 1886 by pharmacist Dr John S Pemberton in Atlanta, Georgia",
+        "description": "The Coca‑Cola Company is the world's leading manufacturer, marketer and distributor of non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands."
+        },
+        {
+        "title": "Fanta",
+        "subtitle": "Bright, bubbly and made with five per cent juice",
+        "description": "Fanta is a soft drink with a tingly, fruity taste."
+        },
+        {
+        "title": "Coca‑Cola Energy",
+        "subtitle": "The only energy drink with a great Coca‑Cola taste!",
+        "description": "With caffeine from naturally-derived sources, guarana extracts and B vitamins, and completely taurine-free, Coca‑Cola Energy is here to complement your upbeat and busy life. Niacin (Vitamin B3) and Vitamin B6 contribute to normal energy-yielding metabolism. Consume as part of a varied and balanced diet and healthy lifestyle"
+        },
+        {
+        "title": "Schweppes Classic",
+        "subtitle": "Feel the fabulous fizz of Schweppes Classic",
+        "description": "Delicately balanced mixers sparkling with brilliant bubbles. Made for mixing - or simply to quench your thirst."
+        }
+    ],
+    "firstBrandData":[
+        {
+            
+        }
+    ]
+}

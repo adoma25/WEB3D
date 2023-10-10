@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Coca-Cola 3D Apps Lab1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/ae539871ec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Logo and Navigation Bar-->
+<nav class="navbar sticky-top navbar-expand-sm navbar_coca_cola">  <div class="container">
+    <!-- Brand -->
+    <div class="logo">
+      <a class="navbar-brand" href="#">
+      <h1>1</h1>
+      <h1>oca</h1>
+      <h2>Cola</h2>
+      <h3>Journey</h3>
+      <p>Refreshing the world, one story at a time</p>
+      </a>
+      </div>
+      
+  <!-- Collapsable More Icon -->
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse ">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+  <!-- Link Menu item button to the links class navbar-collapse selector -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <!-- Links -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+
+      <!-- Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          Drinks
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="fanta.html">Fanta</a>
+          <a class="dropdown-item" href="coca_energy.html">Coca‑Cola Energy</a>
+          <a class="dropdown-item" href="schweppes.html">Schweppes Classic</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+<br>
+<!-- Main Body -->
+<!-- Main content of the page -->
+<div class="container main_contents">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="main_3d_image">
+          <div id="main_text" class="col-xs-12 col-sm-4">
+            <div id="homeMainTitle"></div>
+            <div id="homeMainSubtitle"></div>
+            <div id="homeMainDescription"></div>
+          </div> 
+        </div>
+        
+      </div>
+    </div>
+    <br>
+    <!-- Cards Row -->
+    <div class="row">
+      <!--Fanta-->
+      <div class="col-sm-4">
+        <div class="card">
+          <a href="#">
+            <img src="assets/images/fanta_can.png" class="card-img-top img-fluid img-thumbnail" alt="Fanta">
+          </a>
+          <div id="card_style" class="card-body">
+            <div id="firstColumnTitle" class="card_title "></div>
+            <div id="firstColumnSubtitle" class="card_subtitle"></div>
+            <div id="firstColumnDescription" class="card-text"></div>
+            <a href="fanta.html" class="btn btn-primary">Find out more..</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Coca‑Cola Energy-->
+      <div class="col-sm-4">
+        <div class="card">
+          <a href="#">
+            <img src="assets/images/coke_energy.png" class="card-img-top img-fluid img-thumbnail" alt="Coca‑Cola Energy">
+          </a>
+          <div id="card_style" class="card-body">
+            <div id="secondColumnTitle" class="card_title "></div>
+            <div id="secondColumnSubtitle" class="card_subtitle"></div>
+            <div id="secondColumnDescription" class="card-text"></div>
+            <a href="#" class="btn btn-primary">Find out more..</a>
+          </div>
+        </div>
+      </div>
+      <!-- Schweppes Classic -->
+      <div class="col-sm-4">
+        <div class="card">
+          <a href="#">
+            <img src="assets/images/schweppes_bottle.png" class="card-img-top img-fluid img-thumbnail" alt="Schweppes Classic">
+          </a>
+          <div id="card_style" class="card-body">
+            <div id="thirdColumnTitle" class="card_title "></div>
+            <div id="thirdColumnSubtitle" class="card_subtitle"></div>
+            <div id="thirdColumnDescription" class="card-text"></div>
+            <a href="#" class="btn btn-primary">Find out more..</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Footer-->
+<nav class="navbar navbar-expand-sm footer">
+  <div class="container">
+    <div class="navbar-text float-left copyright">
+      <p><span class="align-baseline">&copy 2021 Mobile Web 3D Applications - Adem Bencheikh</span></p>
+    </div>
+    <div class="navbar-text float-right social">
+      <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      <a href="#"><i class="fab fa-google-plus fa-2x"></i></a>
+      <a href="#"><i class="fab fa-github fa-2x"></i></a>
+    </div>
+  </div>
+</nav>
+
+
+  <!--JS Scripts-->
+  <!--Home Page Data Fetcher-->
+  <script src="scripts/getJsonData.js"></script>
+</body>
+</html>
